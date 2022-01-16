@@ -1,6 +1,6 @@
 # Amazon-WebScraping-ReactJS-Flask
 
-### Why did I use two different technologies?
+### Why did I use two different programming languages?
 
 ### Backend:
 
