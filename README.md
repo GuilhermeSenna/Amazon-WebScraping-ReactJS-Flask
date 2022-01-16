@@ -2,7 +2,7 @@
 
 ### Why did I use two different technologies?
 
-### Backend
+### Backend:
 
 #### Well, as I've had past experiences with Python doing webscraping I chose it to be my backend (API). The framework used was Flask, because although I have already used Django, Flask allows me to create an API faster (as the purpose of the project is low complexity).
 
@@ -13,7 +13,7 @@
 - requests (For HTTP requests)
 - BeatifulSoup (Great tool to extract web content)
 
-### Frontend
+### Frontend:
 
 #### I'm currently doing some projects in ReactJS (including a course in progress). So it's another personal project for me to train and learn more about this amazing tool.
 
