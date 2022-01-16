@@ -63,7 +63,7 @@ const App = () => {
 
   return (
     <>
-      <h1 className={styles.title}>Crawler teste</h1>
+      <h1 className={styles.title}>Scraping test</h1>
       <Card >
         {/* <Input label="teste" input={{ type: "text", id: "url" }} />
         <Input label="teste" input={{ type: "text", id: "url" }} /> */}
