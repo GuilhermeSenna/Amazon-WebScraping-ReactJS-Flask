@@ -17,7 +17,7 @@
 
 #### I'm currently doing some projects in ReactJS (including a course in progress). So it's another personal project for me to train and learn more about this amazing tool.
 
-#### When I did webscraping only with Python (without using Javascript or PHP), I used a library called streamlit, including some projects published here in Github, which is an excellent tool for working with data science projects, but which lacks flexibility when you want if creating styles (maybe in future updates they will improve this).
+#### When I did webscraping only with Python (without using Javascript or PHP), I used a library called streamlit, including some projects published here in Github, which is an excellent tool for create web interfaces to work with data science, but which lacks flexibility when you want if creating styles (maybe in future updates they will improve this).
 
 
 ### Screenshot:
