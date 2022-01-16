@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #011638;
+}
+
+.title {
+  color: #EEC643;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 4rem;
+  /* text-shadow: -1px -1px 0 #086E7D, 1px -1px 0 #086E7D, -1px 1px 0 #086E7D, 1px 1px 0 #086E7D; */
+}
