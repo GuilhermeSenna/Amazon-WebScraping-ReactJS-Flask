@@ -72,10 +72,6 @@ const App = () => {
       </Card>
 
       {content}
-
-      {/* <Card width="100%">
-        
-      </Card> */}
     </>
   );
 }

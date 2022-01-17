@@ -6,3 +6,58 @@ img{
     width: 15rem;
     height: 20rem;
 }
+
+.modal_image{
+    border: 4px solid white;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content:flex-start; */
+    /* align-items: center; */
+    font-weight: bold;
+    /* font-size: 1.5rem; */
+    /* margin: 1rem 0; */
+    /* margin: 1rem;
+    padding: 1rem; */
+}
+
+
+.modal_items{
+    padding: 0;
+    margin: 0 1rem;
+}
+
+.close {
+    text-align: right;
+}
+
+.close button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #0D21A1;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+.close button:hover,
+.close button:active {
+    background-color: #0D21A1;
+    border-color: #0D21A1;
+    color: white;
+}
+
+.close .button--alt {
+    color: #0D21A1;
+}
+
+.close .button {
+    background-color: #0D21A1;
+    color: white;
+}
