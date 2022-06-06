@@ -9,8 +9,10 @@
   }
   
   .modal {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
     position: fixed;
-    top: 10vh;
+    top: 5vh;
     left: 5%;
     width: 90%;
     background-color: #EEC643;

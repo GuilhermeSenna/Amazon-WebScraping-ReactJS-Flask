@@ -2,7 +2,7 @@ h2, h3{
     color: #141414;
 }
 
-img{
+.item_image{
     width: 15rem;
     height: 20rem;
 }
@@ -10,7 +10,8 @@ img{
 .modal_image{
     border: 4px solid white;
     border-radius: 20px;
-    width: 100%;
+    /* width: 100%;
+    height: 100%; */
 }
 
 .items {

@@ -31,12 +31,6 @@ const App = () => {
 
       setItems(data);
 
-      // api
-      //   .get("/")
-      //   .then((response) => setResponse(response.data))
-      //   .catch((err) => {
-      //     console.error("ops! ocorreu um erro" + err);
-      //   });
     } catch (error) {
       setError(error.message);
     }
@@ -63,7 +57,7 @@ const App = () => {
 
   return (
     <>
-      <h1 className={styles.title}>Scraping test</h1>
+      <h1 className={styles.title}>Webscraping w/ React</h1>
       <Card >
         {/* <Input label="teste" input={{ type: "text", id: "url" }} />
         <Input label="teste" input={{ type: "text", id: "url" }} /> */}

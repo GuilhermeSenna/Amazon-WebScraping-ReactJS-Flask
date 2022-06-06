@@ -7,7 +7,12 @@ import styles from './Item.module.css'
 
 const Item = props => {
     const [showModal, setShowModal] = useState(false);
-    const { nome, link, imagem, preco, nota } = props.children;
+    let { nome, link, imagem, preco, nota } = props.children;
+
+    // console.log(imagem);
+
+    // imagem = 'https://m.media-amazon.com/images/P/B00JG9BCJO.01._SCLZZZZZZZ_SX500_.jpg'
+
 
     const modal = (
         <Modal onClick={() => { setShowModal(false) }}>
@@ -16,9 +21,9 @@ const Item = props => {
             </div>
             <div className={styles.items}>
 
-                <img src={imagem} alt={`${nome}-product`} onClick={() => { console.log('clicado') }}></img>
+                <img className={styles.modal_image} src={imagem} alt={`${nome}-product`}></img>
                 <div className={styles.modal_items}>
-                    <h2>{nome}</h2>
+                    {/* <h2>{nome}</h2>
                     <h3>R$ {preco}</h3>
                     <h3>{nota}</h3>
 
@@ -27,13 +32,8 @@ const Item = props => {
                     </div>
                     <br />
                     <br />
-                    <a href={link} target='_blank' rel="noreferrer"><Button>Acessar produto</Button></a>
+                    <a href={link} target='_blank' rel="noreferrer"><Button>Acessar produto</Button></a> */}
                 </div>
-                {/* <a href={link} target='_blank' rel="noreferrer"><Button>Acessar produto</Button></a> */}
-
-                {/* <span>Total Amount</span>
-                <span>teste</span>
-                <span>teste</span> */}
             </div>
         </Modal>
     );
@@ -41,7 +41,7 @@ const Item = props => {
     return (
         <>
             <Card margin="2rem" onClick={() => { setShowModal(true) }}>
-                <img src={imagem} alt={`${nome}-product`} onClick={() => { console.log('clicado') }}></img>
+                <img className={styles.item_image} src={imagem} alt={`${nome}-product`} onClick={() => { console.log('clicado') }}></img>
                 <h2>{nome}</h2>
                 <h3>R$ {preco}</h3>
                 <h3>{nota}</h3>
